@@ -16,8 +16,8 @@ int main() {
     // Navios adicionais
     for (int i = 0; i < 3; i++) tabuleiro[1][6 + i] = 3; // Navio horizontal
     for (int i = 0; i < 4; i++) tabuleiro[6 + i][1] = 3; // Navio vertical
-    for (int i = 0; i < 3; i++) tabuleiro[6 + i][6 + i] = 3; // Navio diagonal (baixo-direita)
-    for (int i = 0; i < 2; i++) tabuleiro[9 + i][3 - i] = 3; // Navio diagonal (baixo-esquerda)
+    for (int i = 0; i < 3; i++) tabuleiro[6 + i][6 + i] = 3; // Navio diagonal (baixo direita)
+    for (int i = 0; i < 2; i++) tabuleiro[9 + i][3 - i] = 3; // Navio diagonal (baixo esquerda)
 
     // Exibe o tabuleiro
     printf("Tabuleiro Completo:\n");
